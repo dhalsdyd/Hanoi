@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "131077958549",
+    "project_id": "hanoi-eefe1",
+    "storage_bucket": "hanoi-eefe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131077958549:android:92ce9a3a17e5bfc574649c",
+        "android_client_info": {
+          "package_name": "com.example.tower_of_hanoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131077958549-72dhck2gi54m748q40n1fc7l2fvartar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tower_of_hanoi",
+            "certificate_hash": "c8d0420bd05136b4709ffc967d21ab5fe924f78a"
+          }
+        },
+        {
+          "client_id": "131077958549-fvjkftfjkmip85jn68ajseusvgan087o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAEUUlIei29I9-BSppH0UHeIrR8Ez3h1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131077958549-fvjkftfjkmip85jn68ajseusvgan087o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
