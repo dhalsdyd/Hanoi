@@ -94,7 +94,7 @@ class _TutoState extends State<Tuto> with TickerProviderStateMixin {
                         color: Colors.black.withOpacity(0.5),
                         child: Center(
                           child: Text(
-                              "디스크를 잡고 옮기거나 칸을 선택해서 옮길 수 있습니다\n한번은 디스크, 한번은 칸으로 움직여 보세요\n세번째 칸으로 다 옮기면 됩니다",
+                              "디스크 칸을 선택하고 드래그 해서 옮길 수 있습니다\n세번째 칸으로 다 옮기면 됩니다",
                               style: TextStyle(
                                   fontSize: 10,
                                   color: Colors.amber,
