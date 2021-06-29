@@ -763,11 +763,12 @@ class DiskState extends State<Disk> with TickerProviderStateMixin {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _refresh,
-        child: Icon(Icons.refresh),
-        backgroundColor: Colors.amber,
-      ),
+
+     floatingActionButton: widget.type != 'r' ? FloatingActionButton(
+       onPressed: _refresh,
+       child: Icon(Icons.refresh),
+       backgroundColor: Colors.amber,
+     ) : null,
       floatingActionButtonLocation: FloatingActionButtonLocation.endTop,
     );
   }
